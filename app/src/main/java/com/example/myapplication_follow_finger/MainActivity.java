@@ -20,9 +20,6 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     private Button mButton,button2;
     private ViewGroup mViewGroup;
     private int xDelta;
-
-
-
     private int yDelta;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
