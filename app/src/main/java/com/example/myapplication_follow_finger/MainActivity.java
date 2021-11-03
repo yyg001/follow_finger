@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         mButton.setLayoutParams(layoutParams);
         mButton.setOnTouchListener(this);
         mButton.setOnClickListener(this);
+
     }
     @Override
     public boolean onTouch(View v, MotionEvent event) {
