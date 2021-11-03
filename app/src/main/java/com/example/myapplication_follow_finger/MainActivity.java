@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     private Button mButton,button2;
     private ViewGroup mViewGroup;
     private int xDelta;
+    private int fdas;
     private int yDelta;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         layoutParams.leftMargin = 500;
         layoutParams.topMargin = 1000;
-        Log.i("TAG", "onCreate: fdsaf");
         Log.i("TAG", "onCreate: fdsaf");
         mButton.setLayoutParams(layoutParams);
         mButton.setOnTouchListener(this);
