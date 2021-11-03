@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
                 Log.i("5432", "xDelta = "+xDelta);
                 Log.i("5432", "--------------------- ");
 
-
+                Log.i("TAG", "onTouch: 666");
 
 
 
