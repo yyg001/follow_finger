@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
                 Log.i("5432", "leftMargin = "+params.leftMargin);
                 Log.i("5432", "xDelta = "+xDelta);
                 Log.i("5432", "--------------------- ");
+
+
+
                 break;
             case MotionEvent.ACTION_MOVE:
 
