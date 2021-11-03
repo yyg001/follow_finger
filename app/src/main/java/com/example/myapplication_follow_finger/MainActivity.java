@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         layoutParams.leftMargin = 500;
         layoutParams.topMargin = 1000;
         Log.i("TAG", "onCreate: fdsaf");
+        Log.i("TAG", "onCreate: fdsaf");
         mButton.setLayoutParams(layoutParams);
         mButton.setOnTouchListener(this);
         mButton.setOnClickListener(this);
